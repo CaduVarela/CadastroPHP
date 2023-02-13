@@ -40,18 +40,59 @@ article h1 {
     padding: 5px;
 }
 
-.dropdown-menu ul {
+.menu {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.menu a {
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+}
+
+.menu ul {
 
 }
 
-.dropdown-content {
+.dropdown {
+    display: none;
+
     list-style: none;
     padding: 0;
     margin: 0;
+
+    opacity: 0;
+    z-index: 2;
+
+    background-color: purple;
+    transform: translateY(-40%);
+    transition: all .15s ease-out;
 }
 
-.dropdown-content a {
+.has-dropdown:focus-within {
+    opacity: 1;
+    display: block;
+    pointer-events: auto;
+    transform: translateY(40%);
+}
+
+.dropdown a {
     text-align: center;
     padding: 5px 0;
     display: block;
+    background-color: blue;
+}
+
+.dropdown li {
+    display: block;
+    background-color: red;
+    padding: 5px;
+    margin: 0;
 }

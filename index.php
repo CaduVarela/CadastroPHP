@@ -12,11 +12,18 @@
 
     </header>
 
-    <div class="dropdown-menu">
-        <ul class="dropdown-content">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Signup</a></li>
-            <li><a href="#">Login</a></li>
+    <div class="menu has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Signup</a>
+            </li>
+            <li>
+                <a href="#">Login</a>
+            </li>
         </ul>
     </div>
 
