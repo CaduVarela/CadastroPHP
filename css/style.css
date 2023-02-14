@@ -29,75 +29,79 @@ article h1 {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.dropdown-menu {
+#dropdown-menu {
+    display: flexbox;
+    position: fixed;
+
     width: 50px;
     height: 50px;
-    background-color: black;
-    position: sticky;
-    display: block;
+
     top: 10px;
     right: 10px;
-    padding: 5px;
+
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .4);
 }
 
-#menu {
-    display: flex;
-    align-items: center;
-    align-content: center;
-
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    cursor: pointer;
+#dropdown-menu a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Mulish', sans-serif;
 }
 
-#menu a {
-    display: flexbox;
+#dropdown-menu a:hover {
+    text-decoration: none;
+    color: rgb(77, 77, 161);
+}
+
+#dropdown-menu-label {
+    display: block;
+    text-align: center;
 
     width: 100%;
     height: 100%;
 
-    align-items: center;
-    text-align: center;
-    background-color: aqua;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
 }
 
-.menu ul {
+#dropdown-menu-label:hover {
+    background-color: rgba(74, 108, 170, 0.3);
+}
 
+#dropdown-menu-label:hover a {
+    color: blanchedalmond;
 }
 
 .dropdown {
-    display: block;
+    display: flexbox;
 
     list-style: none;
     padding: 0;
     margin: 0;
 
-    opacity: 1;
-    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
 
-    background-color: purple;
-    transform: translateY(30%);
-    transition: transform .15s ease-out;
+    transform: translateY(-100%);
+    transition: transform .3s ease-out, opacity .3s ease-out;
 }
 
-.has-dropdown:focus-within {
+.has-dropdown:focus-within .dropdown {
     opacity: 1;
-    display: block;
     pointer-events: auto;
-    transform: translateY(100%);
+    transform: translateY(0);
 }
 
 .dropdown a {
     text-align: center;
     padding: 5px 0;
     display: block;
-    background-color: blue;
 }
 
 .dropdown li {
-    display: block;
-    background-color: red;
+    display: flexbox;
     padding: 5px;
     margin: 0;
 }
