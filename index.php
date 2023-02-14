@@ -12,8 +12,7 @@
 
     </header>
 
-    <div class="menu has-dropdown">
-        <a href="#">Menu</a>
+    <a href="#" id="menu" class="has-dropdown">
         <ul class="dropdown">
             <li>
                 <a href="#">Home</a>
@@ -25,7 +24,7 @@
                 <a href="#">Login</a>
             </li>
         </ul>
-    </div>
+</a>
 
     <article>
         <div>
