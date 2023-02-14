@@ -1,0 +1,14 @@
+Paleta 1
+#141713 - Night
+#1d201e - Eerie black
+#7b80cc - Tropical indigo
+#d2d4c8 - Timberwolf
+#e0e2db - Alabaster
+
+Paleta 2
+#141713 - Night
+#1d201e - Eerie black
+#4581E9 - Azure
+#d2d4c8 - Timberwolf
+#e0e2db - Alabaster
+#e9ad45 - Hunyadi yellow
