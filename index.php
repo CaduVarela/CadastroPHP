@@ -7,13 +7,17 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Home</title>
 </head>
-<body class="dark">
+<body class="light">
     <header>
 
     </header>
 
     <div id="dropdown-menu" class="has-dropdown">
-        <a href="#" id="dropdown-menu-label">Menu</a>
+        <a href="#" id="dropdown-menu-label">
+            <p>___</p>
+            <p>___</p>
+            <p>___</p>
+        </a>
         <ul class="dropdown">
             <li>
                 <a href="#">Home</a>
