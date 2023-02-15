@@ -10,9 +10,10 @@
     --darker: #141713;
     --dark: #1d201e ;
     --blue: #4581E9 ;
-    --light: #d2d4c8 ;
-    --lighter: #e0e2db ;
-    --yellow: #e9ad45;
+    --light: #d2d3d0 ;
+    --lighter: #dbe2dd ;
+    --dark-blue: #4b689b;
+    --light-blue: #88a8e0;
 }
 
 .light {
@@ -21,7 +22,8 @@
     --title: var(--darker);
     --text: var(--dark);
     --detail: var(--blue);
-    --dropdown: var(--yellow);
+    --alt-detail: var(--dark-blue);
+    --dropdown: var(--dark-blue);
 }
 
 .dark {
@@ -30,7 +32,8 @@
     --title: var(--lighter);
     --text: var(--light);
     --detail: var(--blue);
-    --dropdown: var(--yellow);
+    --alt-detail: var(--light-blue);
+    --dropdown: var(--dark-blue);
 }
 
 /* Basics */
@@ -65,7 +68,7 @@ article {
 
 article h1 {
     padding: 5px;
-    border-bottom: 2px solid var(--yellow);
+    border-bottom: 2px solid var(--alt-detail);
     color: var(--title);
 }
 

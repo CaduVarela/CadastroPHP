@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Home</title>
 </head>
-<body class="light">
+<body class="dark">
     <header>
 
     </header>
