@@ -4,6 +4,7 @@ Paleta 1
 #7b80cc - Tropical indigo
 #d2d4c8 - Timberwolf
 #e0e2db - Alabaster
+141713-1d201e-7b80cc-d2d4c8-e0e2db
 
 Paleta 2
 #141713 - Night
@@ -12,3 +13,4 @@ Paleta 2
 #d2d4c8 - Timberwolf
 #e0e2db - Alabaster
 #e9ad45 - Hunyadi yellow
+141713-1d201e-4581E9-d2d4c8-e0e2db-e9ad45
