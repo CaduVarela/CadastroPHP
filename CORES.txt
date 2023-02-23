@@ -14,3 +14,12 @@ Paleta 2
 #e0e2db - Alabaster
 #e9ad45 - Hunyadi yellow
 141713-1d201e-4581E9-d2d4c8-e0e2db-e9ad45
+
+Paleta 3
+#333333 - Jet
+#3a3b40 - Onyx
+#979bd8 - Vista Blue
+#709775 - Cambridge blue
+#eCefe6 - Alabster
+#fff8f0 - Floral white
+333333-3a3b40-979bd8-709775-ECEFE6-fff8f0

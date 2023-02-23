@@ -7,13 +7,13 @@
 /* Cores */
 
 :root {
-    --darker: #141713;
-    --dark: #1d201e ;
-    --blue: #4581E9 ;
-    --light: #d2d3d0 ;
-    --lighter: #dbe2dd ;
-    --dark-blue: #4b689b;
-    --light-blue: #88a8e0;
+    --darker: #333333;
+    --dark: #3a3b40;
+    --blue: #979bd8 ;
+    --light: #eeefe6 ;
+    --lighter: #fff8f0 ;
+    --dark-blue: #709775;
+    --light-blue: #709775;
 }
 
 .light {
@@ -62,7 +62,7 @@ article {
     padding: 5px 15px;
     width: 50%;
     min-width: 300px;
-    border-radius: 7px;
+    border-radius: 6px;
     box-shadow: 2px 2px 0 var(--detail);
 }
 
