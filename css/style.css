@@ -80,13 +80,20 @@ article h1 {
 /* Theme Switcher */
 
 #theme-switcher {
+    position: fixed;
+    left: 2%;
+    top: 70px;
+    
     background-color: transparent;
+
     width: 40px;
     height: 55px;
     padding: 0;
     margin: 0;
+
     border-radius: 20px;
     border: 0;
+
     cursor: pointer;
     transition: box-shadow .2 ease-in;
 }
@@ -103,6 +110,18 @@ article h1 {
 
 .dark #theme-switcher img {
     filter: hue-rotate(190deg) grayscale(1) invert(1) brightness(3);
+}
+
+#bulb-cable {
+    position: fixed;
+    background-color: rgb(180, 180, 180);
+    width: 1px;
+    height: 80px;
+    top: 0;
+    left: calc(2% + 20px);
+    padding: 0;
+    margin: 0;
+    /*border-left: 1px solid rgb(180, 180, 180);*/
 }
 
 /* Dropdown */
@@ -192,6 +211,7 @@ article h1 {
 
 .dropdown li {
     display: flexbox;
+    background-color: var(--background);
 
     align-items: center;
 

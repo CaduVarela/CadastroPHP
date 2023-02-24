@@ -32,7 +32,9 @@
         </ul>
     </div>
 
+    
     <button id="theme-switcher" onclick="switchtheme()">
+        <div id="bulb-cable"></div>
         <img src="./img/lightbulb.png">
     </button>
 
