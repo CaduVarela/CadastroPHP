@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./scripts/theme-switcher.js"></script>
     <title>Home</title>
 </head>
-<body class="dark">
+<body class="light">
     <header>
 
     </header>
@@ -30,6 +31,10 @@
             </li>
         </ul>
     </div>
+
+    <button id="theme-switcher" onclick="switchtheme()">
+        <img src="./img/lightbulb.png">
+    </button>
 
     <h1 class="center" style="margin: 15px 0 -15px;">Titulo Maior</h1>
     <article>
