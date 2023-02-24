@@ -9,11 +9,10 @@
 :root {
     --darker: #333333;
     --dark: #3a3b40;
-    --blue: #979bd8 ;
-    --light: #eeefe6 ;
-    --lighter: #fff8f0 ;
-    --dark-blue: #709775;
-    --light-blue: #709775;
+    --blue: #718dc0;
+    --light-blue: #87a2d8;
+    --light: #eeefe6;
+    --lighter: #fff8f0;
 }
 
 .light {
@@ -21,9 +20,7 @@
     --panel: var(--light);
     --title: var(--darker);
     --text: var(--dark);
-    --detail: var(--blue);
-    --alt-detail: var(--dark-blue);
-    --dropdown: var(--dark-blue);
+    --detail: var(--light-blue);
 }
 
 .dark {
@@ -32,8 +29,6 @@
     --title: var(--lighter);
     --text: var(--light);
     --detail: var(--blue);
-    --alt-detail: var(--light-blue);
-    --dropdown: var(--dark-blue);
 }
 
 /* Basics */
@@ -73,7 +68,7 @@ article {
 
 article h1 {
     padding: 5px;
-    border-bottom: 2px solid var(--alt-detail);
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
     color: var(--title);
 }
 
@@ -100,16 +95,15 @@ article h1 {
 
 #theme-switcher img {
     height: 50px;
-    filter: hue-rotate(190deg);
     transition: filter .2s ease-out;
 }
 
 .light #theme-switcher img {
-    filter: hue-rotate(190deg) grayscale(0) invert(0) brightness(1) contrast(1);
+    filter: hue-rotate(180deg) grayscale(0) invert(0) brightness(1) contrast(1);
 }
 
 .dark #theme-switcher img {
-    filter: hue-rotate(190deg) grayscale(1) invert(1) brightness(2.5) contrast(.6);
+    filter: hue-rotate(180deg) grayscale(1) invert(1) brightness(2.5) contrast(.6);
 }
 
 #bulb-cable {
