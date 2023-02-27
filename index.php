@@ -21,13 +21,13 @@
         </a>
         <ul class="dropdown">
             <li>
-                <a href="#">Home</a>
+                <a href="./index.php">Home</a>
             </li>
             <li>
-                <a href="#">Signup</a>
+                <a href="./signup.php">Signup</a>
             </li>
             <li>
-                <a href="#">Login</a>
+                <a href="./login.php">Login</a>
             </li>
         </ul>
     </div>
