@@ -40,10 +40,10 @@
     <h1 class="center" style="margin: 15px 0 -15px;">Cadastro</h1>
     <article>
         <form action="">
-            <label for="campo-nome">Nome</label>
+            <label for="campo-nome" class="bold">Nome</label>
             <input type="text" name="campo-nome" id="campo-nome" required>
 
-            <label for="campo-sexo">Sexo</label>
+            <label for="campo-sexo" class="bold">Sexo</label>
             <div id="campo-sexo">
                 <input type="radio" name="campo-sexo" id="campo-masculino">
                 <label for="campo-masculino">Masculino</label>
@@ -51,15 +51,17 @@
                 <input type="radio" name="campo-sexo" id="campo-feminino">
                 <label for="campo-feminino">Feminino</label>
 
-                <input type="radio" name="campo-sexo" id="campo-outro">
-                <label for="campo-outro">Outro</label>
+                <!--<input type="radio" name="campo-sexo" id="campo-outro">
+                <label for="campo-outro">Outro</label>-->
             </div>
 
-            <label for="">Senha</label>
-            <input type="text" name="campo-senha" id="campo-senha">
+            <label for="" class="bold">Senha</label>
+            <input type="password" name="campo-senha" id="campo-senha">
             
-            <label for="">Confirmar Senha</label>
-            <input type="text" name="campo-confirmar" id="campo-confirmar">
+            <label for="" class="bold">Confirmar Senha</label>
+            <input type="password" name="campo-confirmar" id="campo-confirmar">
+
+            <input type="submit" value="Enviar">
         </form>
     </article>
 </body>
